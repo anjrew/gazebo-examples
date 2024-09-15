@@ -1,0 +1,23 @@
+
+{
+    "ros.distro": "noetic",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-c",
+                "./bin/activate.sh"
+            ]
+        }
+    },
+
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "files.associations": {
+        "*.env.development": "env",
+        "*.env.production": "env",
+        ".env": "env",
+        ".env*": "dotenv",
+        "*.xacro": "xml",
+        "chrono": "cpp"
+    },
+}
