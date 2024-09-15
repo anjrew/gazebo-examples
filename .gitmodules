@@ -1,3 +1,6 @@
 [submodule "src/gazebo_terrain_tutorial"]
 	path = src/gazebo_terrain_tutorial
 	url = https://github.com/anjrew/gazebo_terrain_tutorial.git
+[submodule "src/husky"]
+	path = src/husky
+	url = https://github.com/husky/husky.git

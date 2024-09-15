@@ -6,7 +6,7 @@
             "path": "bash",
             "args": [
                 "-c",
-                "./bin/activate.sh"
+                "source ./bin/activate.sh"
             ]
         }
     },
@@ -20,4 +20,12 @@
         "*.xacro": "xml",
         "chrono": "cpp"
     },
+    "python.autoComplete.extraPaths": [
+        "/home/aj/Desktop/gazebo-examples/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/aj/Desktop/gazebo-examples/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
 }
